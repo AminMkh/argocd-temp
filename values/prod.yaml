@@ -1,9 +1,9 @@
-singleuser:
-  image:
-    registry: myregistry.localhost:49810
-    repository: jupyter-base-notebook
-    tag: 1.29
-  command: /opt/versatel/start.sh
+# singleuser:
+#   image:
+#     registry: myregistry.localhost:49810
+#     repository: jupyter-base-notebook
+#     tag: 1.29
+#   command: /opt/versatel/start.sh
 
 postgresql:
   enabled: true
